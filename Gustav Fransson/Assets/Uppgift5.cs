@@ -14,7 +14,7 @@ public class Uppgift5 : MonoBehaviour
         return a + b;
         //Its a method
     }
-    // Use this for initialization
+  
     void Start()
     {
         c = Method(a, b);
@@ -28,12 +28,6 @@ public class Uppgift5 : MonoBehaviour
             Debug.Log("Cisco");
         }
         //Prints if c is biger than e or smaller than d.
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
 }

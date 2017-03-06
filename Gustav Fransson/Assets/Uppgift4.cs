@@ -6,20 +6,16 @@ public class Uppgift4 : MonoBehaviour {
     public float b;
     public float c;
 	// I create variables.
-	void Start () 
+	
+    void Start () 
     {
-        // First i say that a is 5 less than b.
+        // Here it says that a has the same value as b but 5 less.
         a = b - 5;
-        // Here i say that if C is less than B and A less than C it should type "CiscoRamon" in the console in unity.
+
+        // Here It's going to say "CiscoRamon" in the console in unity if C is less than B and A less than C.
         if (c < b && c > a) 
         Debug.Log("CiscoRamon");
-        
-        
+              
 	}
 
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }
